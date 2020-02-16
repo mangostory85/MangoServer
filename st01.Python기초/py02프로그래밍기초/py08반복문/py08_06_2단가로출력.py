@@ -7,5 +7,5 @@ for i in range(1, 10, 1):
 
     if i == 9:
         print("2*%d=%d"%(i,2*i), end = ".")
-    else
+    else :
         print("2*%d=%d"%(i,2*i), end = ",")
