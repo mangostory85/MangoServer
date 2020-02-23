@@ -1,6 +1,16 @@
 # 중첩 for문
-
+# for i in range(0, 10, 1):
+#    for j in range(0, 10, 1):
+#        print("*", end=" ")
+#    print()
 # **********
+# x가 1일때 y는 2~10
+# x가 2일때 y는 3~10
+# x가 3일때 y는 4~10
+for i in range(10, 1, -1):
+    for j in range(1, i, 1):
+        print(" ", end="*")
+    print()
 # **********
 # **********
 # **********
