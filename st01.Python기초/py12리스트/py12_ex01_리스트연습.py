@@ -102,6 +102,6 @@ for i in 리스트:
 #  list의 모든 값을 삭제하시오
 #  pop 0부터 드롭을 시켜야 하니까
 
-while True:
+while len(리스트) >= 0:
     리스트.pop(0)
     print(리스트)
