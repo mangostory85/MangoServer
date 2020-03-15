@@ -16,6 +16,7 @@ dictionary = {
 }
 # 요소 추가 전에 내용을 출력해봅니다.
 print(dictionary)
+"""
 print("name : ", dictionary["name"])
 print("type : ", dictionary["type"])
 print("ingredient : ", dictionary["ingredient"])
@@ -85,3 +86,4 @@ for value in dictionary.values():
 # key, value를 쌍으로 열거, items() 메서드 사용
 for item in dictionary.items():
     print("items >>> ", item)
+"""

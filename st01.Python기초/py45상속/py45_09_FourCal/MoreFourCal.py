@@ -14,5 +14,13 @@
 #    if __name__ == "__main__":
 #    main()
 
-
+import FourCal
 # 코딩 하기 
+class MoreFourCal(FourCal.FourCal):
+    def __init__(self, first, second):
+        FourCal.FourCal.__init__(self, first, second)
+        super.setFirst(first)
+        super.setSecond(second)
+    def pow(self):
+        result = super.getFirst()**2
+        return result
